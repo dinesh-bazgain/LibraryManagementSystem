@@ -30,9 +30,9 @@ def update_item(inventory):
         print("Item is not available in the inventory!!!")
         return
     # book_id = input(f"Enter the new book id {inventory[book_id]}: "
-    name = input(f"Enter new name of the book and press enter to skip ({inventory[book_id]["name"]}): ")
-    author = input(f"Enter the new author and press enter to skip ({inventory[book_id]["author"]}): ")
-    price = input(f"Enter the new price and press enter to skip ({inventory[book_id]["price"]}): ")
+    name = input(f"Enter new name of the book or press enter to skip ({inventory[book_id]['name']}): ")
+    author = input(f"Enter the new author or press enter to skip ({inventory[book_id]['author']}): ")
+    price = input(f"Enter the new price or press enter to skip ({inventory[book_id]['price']}): ")
     inventory[book_id] = {
         "name": name or inventory[book_id]['name'],
         "author": author or inventory[book_id]['author'],
