@@ -59,7 +59,7 @@ def view_items(inventory):
 def main():
     inventory = load_inventory()
     while True:
-        print("\n**************** LIBRARY MANAGEMENT SYSTEM ********************")
+        print("\n****************** LIBRARY MANAGEMENT SYSTEM *********************")
         print("1. View inventory")
         print("2. Add books")
         print("3. Update books")
